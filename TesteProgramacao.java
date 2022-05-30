@@ -76,7 +76,7 @@ public class TesteProgramacao {
             }
         }
         System.out.println("-----------------------------------------------------");
-        System.out.println("3.8 - Funcionários nascidos nos meses de 10 e 12.");
+        System.out.println("3.8 - Funcionários nascidos nos meses 10 e 12.");
         System.out.println("");
         
         for (int i = 0; i < funcionarios.size(); i++) {
