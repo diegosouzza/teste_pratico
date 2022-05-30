@@ -102,7 +102,7 @@ public class TesteProgramacao {
           }
         }
         
-        System.out.println("Funcionário mais Velho se chama "+nome+" e tem "+idade+" anos.");
+        System.out.println("O funcionário mais velho se chama "+nome+" e tem "+idade+" anos.");
         
         System.out.println("-----------------------------------------------------");
         System.out.println("3.10 - Lista de funcionários em ordem alfabética.");
@@ -127,7 +127,7 @@ public class TesteProgramacao {
         }
         
         DecimalFormat num_format = new DecimalFormat("###,###.00");
-        System.out.println("A soma do salário dos funcionários é de: R$ "+String.format("%9.9s",num_format.format(salario_total)));
+        System.out.println("A soma dos salários dos funcionários é um total de: R$ "+String.format("%9.9s",num_format.format(salario_total)));
         
         System.out.println("-----------------------------------------------------");
         System.out.println("3.12 - Cada funcionário recebe quantos salários minímos?");
